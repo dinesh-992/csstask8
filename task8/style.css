@@ -1,0 +1,91 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    border: 2px solid lightblue;
+
+}
+h3{
+    position: relative;
+    top: 4px;
+    right: 10px;
+    color: rgba(121, 121, 121, 0.701);
+}
+img{
+    width: 70px;
+}
+.content{
+background-image: url(./hotel2.jpg);
+display: flex;
+width: 100vw;
+height: 92vh;
+justify-content: center;
+gap: 5px;
+flex-wrap: wrap;
+
+
+}
+#cover1{
+
+}
+#d1pic{
+    width: 300px;
+}
+#d2pic{
+    width: 300px;
+    text-align: justify;
+}
+#d3pic{
+    width: 300px;
+}
+#d4pic{
+    width: 300px;
+}
+#d1{
+   
+    margin-top: 300px;
+}
+#d2{
+    margin-top: 150px;
+}
+#d3{
+    margin-top: 300px;
+}
+#d4{
+    margin-top: 150px;
+}
+#d1,#d2,#d3,#d4{
+    border: 2px solid white;
+    gap: 30px;
+    background-color: rgba(232, 213, 213, 0.923);
+    width: 20%;
+    height: 30vw;
+    width: 20vw;
+}
+
+#d1:hover{
+  background-color: red;
+
+}
+a:hover:active{
+    color: rgb(165, 190, 55);
+}
+a:hover:visited{
+    background-color: black;
+}
+#bottomc{
+    background-color: skyblue;
+    padding: 50px;
+}
+footer{
+    background-color: orange;
+    padding: 20px;
+
+}
